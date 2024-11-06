@@ -9,9 +9,9 @@ public class Gpt {
     public static String chatGPT(String message) {
 
         //ru
-        String url = "https://api.proxyapi.ru/openai/v1/chat/completions";
-        String apiKey = "sk-SF3sffrCxP7ZK2oHvYGMottDU8N5t7tO"; // API key goes here
-        String model = "gpt-3.5-turbo"; // current model of chatgpt api
+        String url = "";
+        String apiKey = ""; // API key goes here
+        String model = ""; // current model of chatgpt api
 
         try {
             // Create the HTTP POST request
