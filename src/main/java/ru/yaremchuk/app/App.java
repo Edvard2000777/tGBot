@@ -9,7 +9,7 @@ import ru.yaremchuk.bot.Bot;
 public class  App
 {
     public static void main( String[] args ) {
-        String token = "8099031407:AAG2rqPqRzRrq0BUVO5kGEg4bHvgnF3ZTBY";
+        String token = "";
 
         try {
             TelegramBotsApi api = new TelegramBotsApi(DefaultBotSession.class);
